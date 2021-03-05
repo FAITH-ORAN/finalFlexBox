@@ -1,0 +1,58 @@
+/*Faiza Berrichi----date:05-03-21*/
+/*--------Global--------*/
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/*--------Header--------*/
+header{
+    background-color:#9acd32;
+    height: 6em;
+}
+/*--------menu--------*/
+nav{
+    background-color: #ffefd5;
+    height:3em;
+}
+  ul{
+      display:flex;
+      justify-content: space-around;
+  }
+nav li{
+    list-style: none;
+}
+/*--------Main--------*/
+main{
+    height: 12em;
+    display: flex;
+}
+.side1{
+    background-color: #ffd700;
+    flex: 1;
+}
+section{
+    background-color: #00ced1;
+    flex:6;
+}
+.side2{
+    background-color: #fa8072;
+    flex: 1;
+}
+/*--------footer--------*/
+footer{
+    background-color: #b0c4de;
+    display: flex;
+    align-content: flex-start;
+}
+footer ul{
+   flex-direction: column; 
+}
+.ul1{
+    flex: 1;
+}
+.ul2{
+    flex: 1;
+}
+.ul3{
+    flex: 1;
+}
